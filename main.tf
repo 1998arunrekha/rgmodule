@@ -14,7 +14,7 @@ provider "azurerm" {
 
 module "Resourcegroup" {
     source = "./Resourcegroup"
-    resourcegroup ="myrg1"
+    resourcegroup ="newrg22"
     location = "west us"
   
 }
