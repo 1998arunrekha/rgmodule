@@ -1,6 +1,5 @@
 variable "resourcegroup" {
-    type = string
-  
+ type = string
 }
 
 variable "location" {

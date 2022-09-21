@@ -12,9 +12,9 @@ provider "azurerm" {
   features {}
 }
 
-module "ResourceGroup" {
+module "Resourcegroup" {
     source = "./Resourcegroup"
-    resourcegroup = "myrg1"
+    resourcegroup ="myrg1"
     location = "west us"
   
 }
